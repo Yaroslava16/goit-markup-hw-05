@@ -588,21 +588,31 @@ padding-left: 215px;
 
 .thumb {
     position: relative;
+    width: 100%;
 }
 
-.thumb > .label {
+.label-thumb {
     position: absolute;
     margin: 0;
-    bottom: 0;
-    right: 0;
-    padding: 27px 82px;
-   
+    bottom: 0%;
+    right: 50%;
+    transform: translate(-0%, -50%);
+    
     font-size: 14px;
     line-height: 1.14;
     text-align: center;
     text-transform: uppercase;
     color: var(--white-color);
-    background-color: var(--bgc-p-employtment);
+}
+
+.thumb::before {
+content: "";
+position: absolute;
+bottom: 0;
+right: 0;
+width: 100%;
+height: 24%;
+background-color: var(--bgc-p-employtment);
 }
 
 .employment-list {
