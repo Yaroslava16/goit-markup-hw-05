@@ -281,11 +281,6 @@ p {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .section-link:hover .text-overlay,
-.section-link:focus .text-overlay {
-    transform: translateY(0); 
-} */
-
 .capabilities {
     padding: 0px 20px 24px;
 }
@@ -539,7 +534,7 @@ color: var(--white-color);
     fill: var(--white-color);
     border-radius: 50%;
 
-    transition-duration: 2s;
+    transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
